@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [softwaretestingmaterial]">
+  <test thread-count="5" name="com.crm.qa.testcases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="VerifyContactsLinkTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyUserName"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- com.crm.qa.testcases(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->
